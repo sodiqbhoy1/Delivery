@@ -10,7 +10,7 @@ const App = () => {
 
     <>
       <Navbar/>
-    <div className='mx-10'>
+    <div className='sm:mx-10 mx-3'>
       
       <Home/>
       <About/>
