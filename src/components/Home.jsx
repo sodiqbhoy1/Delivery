@@ -2,8 +2,8 @@ import Bike from '../assets/bike.png'
 
 const Home = () => {
   return (
-    <>
- <section className="flex flex-col md:flex-row items-center justify-between p-8 ">
+    <div className=' py-5 sm:py-24' >
+ <section id='home' className="flex flex-col md:flex-row items-center justify-between p-8  ">
       {/* Left Side */}
       <div className="md:w-1/2 mb-6 md:mb-0">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">Order Products Faster & Easier</h1>
@@ -23,7 +23,7 @@ const Home = () => {
         <img src={Bike} alt="Delivery Bike" className="w-full h-auto max-w-sm" />
       </div>
     </section>
-          </>
+          </div>
   )
 }
 

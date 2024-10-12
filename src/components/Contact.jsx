@@ -15,7 +15,7 @@ const Contact = () => {
   </div>
 
   {/* Middle: Contact Details */}
-  <div className="w-full md:w-[350px] text-center md:text-left">
+  <div id='contact' className="w-full md:w-[350px] text-center md:text-left">
     <p className="mb-2">
       <span className="font-bold">Telephone:</span> 123-456-789
     </p>
